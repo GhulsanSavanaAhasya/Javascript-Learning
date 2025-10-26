@@ -38,3 +38,13 @@ arr.shift();
 arr.shift();
 arr.shift();
 console.log(arr.join(', '));
+
+
+//splice & slice
+//splice
+let arr2 = ["coco", "moci", "mimi", "momo", "edi"];
+arr2.splice(4, 0, "loli", "anya");
+console.log(arr2.join(' - '));
+//slice
+let arrSlice = arr2.slice(2,4);
+console.log(arrSlice.join(' - '));
