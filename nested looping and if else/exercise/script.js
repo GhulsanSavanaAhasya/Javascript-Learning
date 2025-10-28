@@ -5,7 +5,7 @@ let chance = 3;
 
 alert("Let's play guessing the numbers\nYou have 3 chances")
 for(chance; chance > 0; chance--){
-    let inputNumber = Number(prompt("Guess the number from 1 - 100"));
+    let inputNumber = Number(prompt("Guess the number from 1 - 10"));
     if(inputNumber > 10 || inputNumber < 0){
         alert("Input is not valid, GAME OVER!");
     }else if(inputNumber == guessNumber){
